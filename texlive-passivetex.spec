@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/xmltex/contrib/passivetex
+# catalog-date 2008-04-20 19:53:04 +0200
+# catalog-license other-free
+# catalog-version undef
 Name:		texlive-passivetex
 Version:	20080420
 Release:	1
@@ -44,6 +50,7 @@ entities, and common formatting object definitions for jadetex.
 %{_texmfdistdir}/tex/xmltex/passivetex/teixmlslides.sty
 %{_texmfdistdir}/tex/xmltex/passivetex/ucharacters.sty
 %{_texmfdistdir}/tex/xmltex/passivetex/unicode.sty
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ entities, and common formatting object definitions for jadetex.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
