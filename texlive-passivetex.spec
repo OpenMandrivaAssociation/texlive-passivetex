@@ -52,3 +52,17 @@ entities, and common formatting object definitions for jadetex.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080420-2
++ Revision: 754656
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080420-1
++ Revision: 719201
+- texlive-passivetex
+- texlive-passivetex
+- texlive-passivetex
+- texlive-passivetex
+
