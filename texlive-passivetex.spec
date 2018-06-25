@@ -5,7 +5,7 @@
 # catalog-license other-free
 # catalog-version undef
 Name:		texlive-passivetex
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Support package for XML/SGML typesetting
 Group:		Publishing
