@@ -5,8 +5,8 @@
 # catalog-license other-free
 # catalog-version undef
 Name:		texlive-passivetex
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	Support package for XML/SGML typesetting
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xmltex/contrib/passivetex
