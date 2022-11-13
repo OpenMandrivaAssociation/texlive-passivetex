@@ -1,17 +1,11 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/xmltex/contrib/passivetex
-# catalog-date 2008-04-20 19:53:04 +0200
-# catalog-license other-free
-# catalog-version undef
 Name:		texlive-passivetex
-Version:	20190228
+Version:	15878
 Release:	1
 Summary:	Support package for XML/SGML typesetting
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xmltex/contrib/passivetex
 License:	OTHER-FREE
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/passivetex.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/passivetex.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,12 +17,12 @@ Packages providing XML parsing, UTF-8 parsing, Unicode
 entities, and common formatting object definitions for jadetex.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -46,7 +40,7 @@ entities, and common formatting object definitions for jadetex.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
