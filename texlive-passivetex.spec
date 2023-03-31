@@ -1,6 +1,6 @@
 Name:		texlive-passivetex
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Support package for XML/SGML typesetting
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xmltex/contrib/passivetex
