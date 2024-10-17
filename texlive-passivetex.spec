@@ -3,7 +3,7 @@ Version:	69742
 Release:	1
 Summary:	Support package for XML/SGML typesetting
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/xmltex/contrib/passivetex
+URL:		https://www.ctan.org/tex-archive/macros/xmltex/contrib/passivetex
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/passivetex.r%{version}.tar.xz
 BuildArch:	noarch
